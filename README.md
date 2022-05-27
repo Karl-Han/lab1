@@ -138,7 +138,7 @@ What is difference between these two methods?
 
 Complexity!!!
 
-![](./2022-05-26-11-20-20.png)
+![](./assets/2022-05-26-11-20-20.png)
 * $\theta$ Notation (Asymptotic Tight Bound): $\theta(g(n))$ = {f(n):there exist positive constants c1, c2, and $n_0$, s.t. $0 \le c1*g(n) \le f(n) \le c2*g(n), \forall n \gt n_0$}
 * Big-O Notation (Asymptotic Upper Bound): O(g(n)) = {f(n):there exist positive constants c and $n_0$, s.t. $f(n) \le c*g(n), \forall n \gt n_0$}
 * $\Omega$ Notation (Asymptotic Lower Bound): $\Omega$(g(n)) = {f(n):there exist positive constants c and $n_0$, s.t. $c*g(n)\le f(n) , \forall n \gt n_0$}
@@ -170,13 +170,13 @@ Memory Consumption:
 
 C++
 
-![](./2022-05-26-11-45-34.png)
+![](./assets/2022-05-26-11-45-34.png)
 
 ---
 
 Python
 
-![](./2022-05-26-11-46-06.png)
+![](./assets/2022-05-26-11-46-06.png)
 
 ---
 
@@ -184,20 +184,20 @@ Time Consumption:
 
 C++
 
-![](./2022-05-26-11-46-22.png)
+![](./assets/2022-05-26-11-46-22.png)
 
 ---
 
 Python
 
-![](./2022-05-26-11-46-40.png)
+![](./assets/2022-05-26-11-46-40.png)
 
 Note: They are implemented by different people, so the slope of the curve is a little bit different. 
 
 ## Memory Layout of Running Process
 Note that in lab we have lower address on the top and higher address at the bottom. 
 
-![](./2022-05-26-21-20-50.png)
+![](./assets/2022-05-26-21-20-50.png)
 
 You may soon encounter the segment fault soon, check if you have
 * access wrong memory when using point
